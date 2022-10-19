@@ -23,6 +23,18 @@ Functions
 
 # var2 = BMI(height=17, weight=60)
 
-'''Functions with Variable length arguments'''
-def Result():
-    pass
+'''Functions with Variable length positional arguments'''
+# def Result(grades, name, *args):
+#     print(grades)
+#     print(name)
+#     print(args)
+
+# Result("Anything", "dapo", 2, 46, 99, "boy")
+
+'''Functions with variable length key words arguments'''
+# def myFunc(**kwargs):
+#     print(kwargs)
+#     print(kwargs['sex'])
+
+# myFunc(age=5, sex="male", level="uni", name="peter")
+
